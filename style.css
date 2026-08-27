@@ -1,0 +1,27 @@
+/* Custom styles bổ sung cho giao diện Zovira mượt mà hơn */
+body {
+    background-color: #0b0e11;
+    color: #eaecef;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0b0e11;
+}
+::-webkit-scrollbar-thumb {
+    background: #23272e;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #2b313a;
+}
